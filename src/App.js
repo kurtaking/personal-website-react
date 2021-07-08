@@ -1,11 +1,18 @@
 import "./App.css";
+import TypedComponent from "./components/TypedComponent";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          <h1>Hello, my name is Kurt!</h1>
+          <TypedComponent
+            strings={[
+              "Hello, my name is Kurt!^1000",
+              "Website coming soon.",
+              "Visit kurtking.me for now",
+            ]}
+          />
         </p>
       </header>
     </div>
