@@ -37,6 +37,19 @@
   }
 }
 
-.name-section {
-  margin-top: 2em;
+.follow-me-section {
+  margin-top: 15px;
+}
+
+.follow-me-section ul {
+  list-style-type: none;
+}
+
+.follow-me-icons {
+  color: white;
+  padding: 5px;
+}
+
+.follow-me-icons:hover {
+  color: #286da8;
 }
