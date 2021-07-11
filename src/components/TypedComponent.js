@@ -23,7 +23,9 @@ class TypedComponent extends Component {
       <div>
         <div className="typed-section">
           <span
-            style={{ whiteSpace: "pre", fontSize: 50 }}
+            style={{
+              whiteSpace: "pre",
+            }}
             ref={(el) => {
               this.el = el;
             }}
@@ -35,14 +37,3 @@ class TypedComponent extends Component {
 }
 
 export default TypedComponent;
-
-/*ReactDOM.render(
-  <TypedReactDemo
-    strings={[
-      "My name is kurt",
-      "Website coming soon.",
-      "Visit kurtking.me for now",
-    ]}
-  />,
-  document.getElementById("react-root")
-);*/
