@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import TypedComponent from "../Typed/TypedComponent";
 import AboutMe from "../AboutMe/AboutMe";
+import Sidebar from "../Navigation/Sidebar";
 
 function Home() {
   const [name, setName] = useState("");
@@ -20,8 +21,9 @@ function Home() {
   }
 
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="flex">
+      <Sidebar />
+      <section className="m-10">
         <TypedComponent
           strings={[
             `Hello, my name is ${name}!`,
@@ -32,7 +34,7 @@ function Home() {
         <div className="name-section">
           <AboutMe name={name} age={age} />
         </div>
-      </header>
+      </section>
     </div>
   );
 }

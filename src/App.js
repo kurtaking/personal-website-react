@@ -7,7 +7,13 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 library.add(fab, fas);
 
 function App() {
-  return <Home />;
+  return (
+    <div>
+      <main>
+        <Home />
+      </main>
+    </div>
+  );
 }
 
 export default App;

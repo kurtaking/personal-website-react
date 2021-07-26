@@ -31,12 +31,7 @@ const AboutMe = () => {
     );
   });
 
-  return (
-    <div className="follow-me-section">
-      <hr />
-      {listItems}
-    </div>
-  );
+  return <div className="follow-me-section">{listItems}</div>;
 };
 
 export default AboutMe;
