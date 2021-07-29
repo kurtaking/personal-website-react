@@ -7,14 +7,15 @@
 }
 
 .follow-me-icons {
-  color: #286da8;
+  color: #cd5360;
   padding: 5px;
+  font-size: large;
 }
 
 .follow-me-icons:hover {
-  color: #286da8;
+  color: #61dafb;
 }
 
 .follow-me-icons:active {
-  color: #61dafb;
+  color: #cd5360;
 }

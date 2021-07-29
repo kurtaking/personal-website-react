@@ -2,13 +2,13 @@ import logo from "./kkwhite-blue1.png";
 
 const Sidebar = () => {
   return (
-    <section
-      className="h-screen w-60 text-center p-6"
-      style={{ backgroundColor: "#286da8" }}
+    <nav
+      className="h-screen w-72 text-center p-6 bg-kkblue"
+      backgroundColor="kkblue"
     >
       <img src={logo} alt="Kurt King Logo" />
-      <h1>Kurt King</h1>
-    </section>
+      <h1 className="hover:text-kkred">Kurt King</h1>
+    </nav>
   );
 };
 

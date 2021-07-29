@@ -1,9 +1,11 @@
-import { useState, useEffect } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//import { useState, useEffect } from "react";
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import Connect from "../Connect";
 import "./AboutMe.css";
 
 const AboutMe = () => {
-  const [options, setOptions] = useState([]);
+  /*const [options, setOptions] = useState([]);
 
   useEffect(() => {
     requestInfo();
@@ -29,9 +31,45 @@ const AboutMe = () => {
         <FontAwesomeIcon icon={[`${option.iconKey}`, `${option.iconName}`]} />
       </a>
     );
-  });
+  });*/
 
-  return <div className="follow-me-section">{listItems}</div>;
+  return (
+    <div>
+      <div className="py-5">
+        <p>Howdy!</p>
+        <p>
+          I&apos;m Kurt, a Texas native currently residing in Austin. I consider
+          myself a designer at heart and love figuring out how things work. I
+          established a passion for computers at a very young age and built my
+          first web page using HTML/CSS around the age of twelve.
+        </p>
+      </div>
+      <div className="m-10 text-center">
+        <p>
+          My goal with this site is to constantly break it and repair it while
+          trying new things. The updates you are seeing are currently being done
+          with&nbsp;
+          <a
+            href="https://reactjs.org/docs/getting-started.html"
+            className="text-kkred"
+          >
+            React
+          </a>
+          &nbsp;+&nbsp;
+          <a href="https://tailwindcss.com" className="text-kkred">
+            tailwindcss
+          </a>
+          .
+        </p>
+      </div>
+      <div className="m-10 text-center">
+        <p>
+          While this is under construction, click below for ways to connect.
+        </p>
+        <Connect />
+      </div>
+    </div>
+  );
 };
 
 export default AboutMe;
