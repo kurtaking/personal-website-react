@@ -1,5 +1,6 @@
 //import { useState, useEffect } from "react";
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Connect from "../Connect";
 import "./AboutMe.css";
 
 const AboutMe = () => {
@@ -33,7 +34,7 @@ const AboutMe = () => {
 
   return (
     <div>
-      <div className="pb-5 space-y-3">
+      <div className="-mt-10 pb-5 space-y-3">
         <p>Howdy!</p>
         <p>
           I&apos;m Kurt, a Texas native currently residing in Austin. I consider
@@ -59,6 +60,9 @@ const AboutMe = () => {
           </a>
           .
         </p>
+        <section>
+          <Connect />
+        </section>
       </div>
     </div>
   );

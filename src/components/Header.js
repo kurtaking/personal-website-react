@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons";
-import Connect from "./Connect";
 import AboutMe from "./AboutMe/AboutMe";
 import photo from "../mlh-kurt.jpg";
 //import photo from "../kurt.jpeg";
@@ -19,14 +18,11 @@ const Header = () => {
               />
             </div>
           </div>
-          <div className="ml-3 mt-3">
+          <div className="m-3">
             <h1 className="font-bold text-lg lg:text-4xl">Kurt King</h1>
             <div className="flex items-center pl-2">
               <FontAwesomeIcon icon={faMapMarkedAlt} />
               <p className="ml-2">Austin, TX</p>
-            </div>
-            <div className="flex items-center text-5xl pl-2">
-              <Connect />
             </div>
           </div>
         </div>
