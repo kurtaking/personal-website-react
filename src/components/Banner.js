@@ -2,11 +2,10 @@ import logo from "../kkwhite-blue1.png";
 
 const Banner = () => {
   return (
-    <div className="container flex flex-wrap mx-auto h-80 bg-kkblue">
-      <div className="w-full p-2 lg:w-1/3">
+    <div className="flex justify-center object-fill mx-auto bg-kkblue">
+      <div className="w-full md:w-2/3 lg:w-1/2">
         <img src={logo} alt="Kurt Logo" />
       </div>
-      <div className="flex w-full p-2 lg:w-1/3 items-center justify-center"></div>
     </div>
   );
 };
