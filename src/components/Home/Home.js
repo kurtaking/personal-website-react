@@ -20,7 +20,7 @@ function Home() {
   }
 
   return (
-    <div className="flex flex-col items-center">
+    <div>
       <section>
         <AboutMe name={name} age={age} />
       </section>

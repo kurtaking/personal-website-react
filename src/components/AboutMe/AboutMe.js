@@ -1,7 +1,5 @@
 //import { useState, useEffect } from "react";
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import Connect from "../Connect";
 import "./AboutMe.css";
 
 const AboutMe = () => {
@@ -35,7 +33,7 @@ const AboutMe = () => {
 
   return (
     <div>
-      <div className="py-5">
+      <div className="py-5 space-y-3">
         <p>Howdy!</p>
         <p>
           I&apos;m Kurt, a Texas native currently residing in Austin. I consider
@@ -44,7 +42,7 @@ const AboutMe = () => {
           first web page using HTML/CSS around the age of twelve.
         </p>
       </div>
-      <div className="m-10 text-center">
+      <div className="m-5 mb-14 text-center">
         <p>
           My goal with this site is to constantly break it and repair it while
           trying new things. The updates you are seeing are currently being done
@@ -61,12 +59,6 @@ const AboutMe = () => {
           </a>
           .
         </p>
-      </div>
-      <div className="m-10 text-center">
-        <p>
-          While this is under construction, click below for ways to connect.
-        </p>
-        <Connect />
       </div>
     </div>
   );

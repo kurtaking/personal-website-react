@@ -26,7 +26,10 @@ const Connect = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <FontAwesomeIcon icon={[`${option.iconKey}`, `${option.iconName}`]} />
+        <FontAwesomeIcon
+          icon={[`${option.iconKey}`, `${option.iconName}`]}
+          className="fa-2x"
+        />
       </a>
     );
   });
